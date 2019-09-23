@@ -15,28 +15,12 @@
                     "alterId": 100
                 }
             ]
-        },
-        "detour": {
-            "to": "vmess-detour-312925"
         }
     },
     "outbound": {
         "protocol": "freedom",
         "settings": {}
     },
-    "inboundDetour": [
-        {
-            "protocol": "vmess",
-            "port": "20001-20011",
-            "tag": "vmess-detour-312925",
-            "settings": {},
-            "allocate": {
-                "strategy": "random",
-                "concurrency": 5,
-                "refresh": 5
-            }
-        }
-    ],
     "outboundDetour": [
         {
             "protocol": "blackhole",
