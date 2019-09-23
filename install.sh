@@ -24,6 +24,10 @@ echo "v2ray 启动，防火墙已关闭"
 cp -rf config/config_server.json /etc/v2ray/config.json
 systemctl restart v2ray
 
+# 检查配置文件的正确性
+/usr/bin/v2ray/v2ray -test -config /etc/v2ray/config.json
 
 # 重启服务器
+echo "10秒钟后重启服务器"
+sleep 10s
 reboot
