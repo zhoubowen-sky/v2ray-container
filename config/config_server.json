@@ -10,7 +10,7 @@
         "settings": {
             "clients": [
                 {
-                    "id": "client1-v2ray-zhoubowen-vip",
+                    "id": "54773862-774a-43aa-b7bf-37311971612a",
                     "level": 1,
                     "alterId": 100
                 }
@@ -20,7 +20,7 @@
             "network": "kcp"
         },
         "detour": {
-            "to": "vmess-detour-952534"
+            "to": "vmess-detour-766099"
         }
     },
     "outbound": {
@@ -31,7 +31,7 @@
         {
             "protocol": "vmess",
             "port": "20001-20011",
-            "tag": "vmess-detour-952534",
+            "tag": "vmess-detour-766099",
             "settings": {},
             "allocate": {
                 "strategy": "random",
