@@ -28,9 +28,6 @@
                     ]
                 }
             ]
-        },
-        "streamSettings": {
-            "network": "kcp"
         }
     },
     "outboundDetour": [

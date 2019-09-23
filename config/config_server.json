@@ -16,11 +16,8 @@
                 }
             ]
         },
-        "streamSettings": {
-            "network": "kcp"
-        },
         "detour": {
-            "to": "vmess-detour-766099"
+            "to": "vmess-detour-312925"
         }
     },
     "outbound": {
@@ -31,15 +28,12 @@
         {
             "protocol": "vmess",
             "port": "20001-20011",
-            "tag": "vmess-detour-766099",
+            "tag": "vmess-detour-312925",
             "settings": {},
             "allocate": {
                 "strategy": "random",
                 "concurrency": 5,
                 "refresh": 5
-            },
-            "streamSettings": {
-                "network": "kcp"
             }
         }
     ],
