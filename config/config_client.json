@@ -16,7 +16,7 @@
         "settings": {
             "vnext": [
                 {
-                    "address": "www.zhoubowen.vip",
+                    "address": "v2ray.zhoubowen.vip",
                     "port": 20000,
                     "users": [
                         {
